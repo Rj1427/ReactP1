@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Slabo 27px', serif;
+    background: beige;
+}
+
+.question{
+    background-color: #d50c0c;
+    font-size: 14px;
+    height: 150px;
+}
+input[type=radio]{
+    cursor: pointer;
+    size: 16px;
+    margin-right:5px;
+}
+
+.header{
+    top: 0;
+    background-color: #20232a;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 5px 5px 5px slategrey;
+}
+
+.title{
+    color: #61dafb;
+    font-family: fantasy;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
+.center-form{
+ margin: auto;
+ padding-top: 50px; 
+}
+
+.modalPopup{
+position: absolute;
+width: 500px;
+height: 200px;
+top: 20%;
+left: 30%;
+border: 1px solid gray;
+background-color: aliceblue;
+box-shadow: 10px 10px 10px gray;
+z-index: 1001;
+}
+
+Link:hover{ 
+text-decoration: none;
+}
+.card-width{
+    width: 25rem; 
+}
+
+.btnStyle{
+    width: 100%;
+}
+.btn-color{
+    background-color: #61dafb;
+    color: white;
+}
+.skip-question{
+    height: 25px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+.list-group-item-action:hover{
+background-color:tomato;
+color: white;
+}
+@media only screen  and (max-width: 750px) {
+    body{
+        padding: 0;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:whitesmoke;
+    }
+    .modalPopup{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 20%;
+        left: 10%;
+        border: 1px solid gray;
+        background-color: aliceblue;
+        box-shadow: 10px 10px 10px gray;
+        z-index: 1001;
+        }
+        .card-width{
+            width: 18rem; 
+        }
+}
